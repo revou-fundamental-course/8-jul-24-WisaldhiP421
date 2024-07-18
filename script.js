@@ -1,3 +1,4 @@
+// method untuk reset value form
 function reset(){
     document.getElementById("pria").checked = false;
     document.getElementById("wanita").checked = false;
@@ -6,6 +7,7 @@ function reset(){
     document.getElementById("tinggi_badan").value = "";
 }
 
+// method untuk validate sekaligus menghitung BMI
 function result(){
     let kelamin, berat, usia, tinggi, result;
 
