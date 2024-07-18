@@ -1,0 +1,79 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #F8EDE3;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+table{
+    width: 100%;
+}
+td{
+    width: 50%;
+}
+section{
+    width: auto;
+    height: 100vh;
+    padding: 30px;
+    padding-bottom: 0;
+}
+.box{
+    width: auto;
+    background-color: #8D493A;
+    padding: 30px;
+    border-radius: 10px;
+}
+label{
+    font-size: 16px;
+    font-weight: 580;
+}
+input[type="text"]{
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+}
+input[type="radio"]{
+    height: 15px;
+    width: 15px;
+}
+.radio{
+    margin-top: 5px;
+}
+.row{
+    margin-bottom: 15px;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.btn-submit{
+    color: white;
+    background-color: turquoise;
+}
+.btn-submit:hover{
+    background-color: cadetblue;
+}
+.btn-reset{
+    background-color: D0B8A8;
+    border: 1.5px solid lightgray;
+}
+.btn-reset:hover{
+    background-color: gray;
+}
+p.result{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+p.result-ket{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
